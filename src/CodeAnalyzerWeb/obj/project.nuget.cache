@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "eIB7UJIK9LA=",
+  "dgSpecHash": "tPpemzzZ8RE=",
   "success": true,
   "projectFilePath": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\CodeAnalyzerWeb.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vuyisa Mamba\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",
+    "C:\\Users\\Vuyisa Mamba\\.nuget\\packages\\microsoft.codeanalysis.common\\4.13.0\\microsoft.codeanalysis.common.4.13.0.nupkg.sha512",
+    "C:\\Users\\Vuyisa Mamba\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.13.0\\microsoft.codeanalysis.csharp.4.13.0.nupkg.sha512",
+    "C:\\Users\\Vuyisa Mamba\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\Vuyisa Mamba\\.nuget\\packages\\system.reflection.metadata\\8.0.0\\system.reflection.metadata.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
