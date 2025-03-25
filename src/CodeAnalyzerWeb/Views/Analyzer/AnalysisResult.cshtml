@@ -1,0 +1,95 @@
+@model CodeAnalyzerWeb.Models.AnalysisResult
+@{
+    ViewData["Title"] = "Analysis Results";
+}
+
+<div class="container mt-4">
+    @if (Model.HasErrors)
+    {
+        <div class="alert alert-danger">
+            <h4>Analysis Failed</h4>
+            <p>@Model.ErrorMessage</p>
+        </div>
+    }
+    else
+    {
+        <h1 class="mb-4">Analysis Results</h1>
+        
+        <div class="row">
+            <!-- Basic Metrics Column -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">Basic Metrics</div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">Lines of Code: @Model.LineCount</li>
+                            <li class="list-group-item">Classes: @Model.ClassCount</li>
+                            <li class="list-group-item">Methods: @Model.MethodCount</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Potential Issues Column -->
+            <div class="col-md-8">
+                <div class="card mb-4">
+                    <div class="card-header">Potential Issues</div>
+                    <div class="card-body">
+                        @if (Model.PotentialBugs.Any())
+                        {
+                            <table class="table table-sm">
+                                <thead>
+                                    <tr>
+                                        <th>Line</th>
+                                        <th>Issue</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var issue in Model.PotentialBugs)
+                                    {
+                                        <tr>
+                                            <td>@issue.Line</td>
+                                            <td>@issue.Message</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                        else
+                        {
+                            <div class="alert alert-success">
+                                No potential issues found!
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Most Complex Methods Section -->
+        <div class="card">
+            <div class="card-header">Most Complex Methods</div>
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Method</th>
+                            <th>Complexity</th>
+                            <th>Lines</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var method in Model.TopComplexMethods)
+                        {
+                            <tr>
+                                <td>@method.Name</td>
+                                <td>@method.Complexity</td>
+                                <td>@method.LinesOfCode</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>

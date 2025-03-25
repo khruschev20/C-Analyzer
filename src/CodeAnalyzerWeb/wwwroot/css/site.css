@@ -19,6 +19,9 @@ html {
 
 body {
   margin-bottom: 60px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,9,121,1) 33%);
+  color: #ffffff;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -28,4 +31,28 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+
+.code-input {
+  font-family: 'Fira Code', Consolas, monospace;
+  font-size: 0.9rem;
+  /*background-color: #f8f9fa;*/
+  background-color: #c476e3;
+  color: #ffffff;
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+}
+
+.table-sm td {
+  padding: 0.3rem;
+}
+
+pre {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.25rem;
 }
