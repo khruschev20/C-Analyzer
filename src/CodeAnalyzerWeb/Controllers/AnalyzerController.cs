@@ -1,4 +1,3 @@
-// AnalyzerController.cs
 using Microsoft.AspNetCore.Mvc;
 using CodeAnalyzerWeb.Models;
 using CodeAnalyzerWeb.Services;

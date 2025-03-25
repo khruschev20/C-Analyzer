@@ -1,4 +1,3 @@
-// RoslynAnalyzer.cs
 using CodeAnalyzerWeb.Models;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;

@@ -37,9 +37,11 @@ body {
 .code-input {
   font-family: 'Fira Code', Consolas, monospace;
   font-size: 0.9rem;
-  /*background-color: #f8f9fa;*/
-  background-color: #c476e3;
-  color: #ffffff;
+  background-color: #d8d4d9;
+}
+
+.Analyzer{
+  text-align: center;
 }
 
 .card {
