@@ -76,6 +76,13 @@ background-color: transparent;
 font-size: large;
 color: #ffffff;
 text-align: left;
+box-shadow: 10px 5px 5px #000000;
+padding: 10px 20px;
+margin-right: 5%;
+}
+
+.Register{
+  margin-left: 50rem;
 }
 
 .card {

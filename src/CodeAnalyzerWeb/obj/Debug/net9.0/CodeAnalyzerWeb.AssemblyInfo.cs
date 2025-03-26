@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeAnalyzerWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6865d0e22e3e2fd80485593327f50624bc0438f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51198aee0d988adf11aea575f6eb98493e4e7c29")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeAnalyzerWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeAnalyzerWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
