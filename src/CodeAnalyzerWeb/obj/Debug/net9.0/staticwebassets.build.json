@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "azkzmZTX616cwVq86gcpKuWz7zGE8dwphfTyhFlOgOg=",
+  "Hash": "4dAM9pLZaaAZmYopCh38/uBViU8HDRbEN1K/xwk5TBs=",
   "Source": "CodeAnalyzerWeb",
   "BasePath": "_content/CodeAnalyzerWeb",
   "Mode": "Default",
@@ -1046,12 +1046,12 @@
       "OriginalItemSpec": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\obj\\Debug\\net9.0\\compressed\\ouy6yr9pmh-nbxg0fsmv7.gz",
+      "Identity": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\obj\\Debug\\net9.0\\compressed\\ouy6yr9pmh-4uz6opza2d.gz",
       "SourceId": "CodeAnalyzerWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CodeAnalyzerWeb",
-      "RelativePath": "css/site#[.{fingerprint=nbxg0fsmv7}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=4uz6opza2d}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ivm8en5su1",
-      "Integrity": "zv9dVXUv4lBS0EhbRVBqBrzm+ykD5T2ThosD2lJUyHI=",
+      "Fingerprint": "pqk5xkc3e0",
+      "Integrity": "QQlk/CJH/34fOz2+CiEjkivpbSQC2Pyq2RVtCwptz3c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nbxg0fsmv7",
-      "Integrity": "s+h1hF3itqA9P2lx4Lb+/bQcIVgJpKtusW8PwqUQAQA=",
+      "Fingerprint": "4uz6opza2d",
+      "Integrity": "7Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3324,13 +3324,13 @@
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\obj\\Debug\\net9.0\\compressed\\ouy6yr9pmh-nbxg0fsmv7.gz",
+      "Route": "css/site.4uz6opza2d.css",
+      "AssetFile": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\obj\\Debug\\net9.0\\compressed\\ouy6yr9pmh-4uz6opza2d.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001236093943"
+          "Quality": "0.001245330012"
         }
       ],
       "ResponseHeaders": [
@@ -3340,19 +3340,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "808"
+          "Value": "802"
         },
         {
           "Name": "ETag",
-          "Value": "\"zv9dVXUv4lBS0EhbRVBqBrzm+ykD5T2ThosD2lJUyHI=\""
+          "Value": "\"QQlk/CJH/34fOz2+CiEjkivpbSQC2Pyq2RVtCwptz3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:28:13 GMT"
+          "Value": "Tue, 08 Apr 2025 11:19:44 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3368,18 +3368,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"s+h1hF3itqA9P2lx4Lb+/bQcIVgJpKtusW8PwqUQAQA=\""
+          "Value": "W/\"7Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "4uz6opza2d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-s+h1hF3itqA9P2lx4Lb+/bQcIVgJpKtusW8PwqUQAQA="
+          "Value": "sha256-7Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c="
         }
       ]
     },
     {
-      "Route": "css/site.css",
+      "Route": "css/site.4uz6opza2d.css",
       "AssetFile": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3389,7 +3397,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1996"
+          "Value": "1976"
         },
         {
           "Name": "Content-Type",
@@ -3397,121 +3405,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s+h1hF3itqA9P2lx4Lb+/bQcIVgJpKtusW8PwqUQAQA=\""
+          "Value": "\"7Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:28:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-s+h1hF3itqA9P2lx4Lb+/bQcIVgJpKtusW8PwqUQAQA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\obj\\Debug\\net9.0\\compressed\\ouy6yr9pmh-nbxg0fsmv7.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "808"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zv9dVXUv4lBS0EhbRVBqBrzm+ykD5T2ThosD2lJUyHI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:28:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zv9dVXUv4lBS0EhbRVBqBrzm+ykD5T2ThosD2lJUyHI="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.nbxg0fsmv7.css",
-      "AssetFile": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\obj\\Debug\\net9.0\\compressed\\ouy6yr9pmh-nbxg0fsmv7.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001236093943"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "808"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zv9dVXUv4lBS0EhbRVBqBrzm+ykD5T2ThosD2lJUyHI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:28:13 GMT"
+          "Value": "Tue, 08 Apr 2025 11:19:44 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"s+h1hF3itqA9P2lx4Lb+/bQcIVgJpKtusW8PwqUQAQA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nbxg0fsmv7"
+          "Value": "4uz6opza2d"
         },
         {
           "Name": "label",
@@ -3519,13 +3427,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-s+h1hF3itqA9P2lx4Lb+/bQcIVgJpKtusW8PwqUQAQA="
+          "Value": "sha256-7Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c="
         }
       ]
     },
     {
-      "Route": "css/site.nbxg0fsmv7.css",
-      "AssetFile": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\wwwroot\\css\\site.css",
+      "Route": "css/site.4uz6opza2d.css.gz",
+      "AssetFile": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\obj\\Debug\\net9.0\\compressed\\ouy6yr9pmh-4uz6opza2d.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3534,7 +3442,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1996"
+          "Value": "802"
         },
         {
           "Name": "Content-Type",
@@ -3542,56 +3450,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s+h1hF3itqA9P2lx4Lb+/bQcIVgJpKtusW8PwqUQAQA=\""
+          "Value": "\"QQlk/CJH/34fOz2+CiEjkivpbSQC2Pyq2RVtCwptz3c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:28:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nbxg0fsmv7"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-s+h1hF3itqA9P2lx4Lb+/bQcIVgJpKtusW8PwqUQAQA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.nbxg0fsmv7.css.gz",
-      "AssetFile": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\obj\\Debug\\net9.0\\compressed\\ouy6yr9pmh-nbxg0fsmv7.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "808"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zv9dVXUv4lBS0EhbRVBqBrzm+ykD5T2ThosD2lJUyHI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 13:28:13 GMT"
+          "Value": "Tue, 08 Apr 2025 11:19:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3609,7 +3472,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nbxg0fsmv7"
+          "Value": "4uz6opza2d"
         },
         {
           "Name": "label",
@@ -3617,7 +3480,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zv9dVXUv4lBS0EhbRVBqBrzm+ykD5T2ThosD2lJUyHI="
+          "Value": "sha256-QQlk/CJH/34fOz2+CiEjkivpbSQC2Pyq2RVtCwptz3c="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\obj\\Debug\\net9.0\\compressed\\ouy6yr9pmh-4uz6opza2d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001245330012"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "802"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQlk/CJH/34fOz2+CiEjkivpbSQC2Pyq2RVtCwptz3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 11:19:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"7Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 11:19:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\Vuyisa Mamba\\Documents\\project\\CSharpCodeAnalyzer\\src\\CodeAnalyzerWeb\\obj\\Debug\\net9.0\\compressed\\ouy6yr9pmh-4uz6opza2d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQlk/CJH/34fOz2+CiEjkivpbSQC2Pyq2RVtCwptz3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 11:19:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QQlk/CJH/34fOz2+CiEjkivpbSQC2Pyq2RVtCwptz3c="
         }
       ]
     },

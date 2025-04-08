@@ -8,6 +8,11 @@ html {
   }
 }
 
+.nvbr{
+  margin-bottom: 0 !important;
+  padding-bottom: 10px;
+}
+
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
@@ -18,10 +23,9 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,9,121,1) 33%);
-  color: #ffffff;
+  margin: 0;
+  padding: 10px 0 0 0;
+  overflow-x: hidden;
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {

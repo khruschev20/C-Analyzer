@@ -61,6 +61,18 @@ namespace CodeAnalyzerWeb.Services
                     Message = "Possible null reference check - consider using null-conditional operators"
                 });
             }
+
+            var emptyFinallyBlocks = root.DescendantNodes()
+    .OfType<FinallyClauseSyntax>()
+    .Where(f => f.Block?.Statements.Count == 0);
+
+foreach (var finallyBlock in emptyFinallyBlocks)
+{
+    potentialBugs.Add(new CodeIssue {
+        Line = finallyBlock.GetLocation().GetLineSpan().StartLinePosition.Line + 1,
+        Message = "Empty finally block - consider adding cleanup logic"
+    });
+}
             
             result.PotentialBugs = potentialBugs;
         }
@@ -93,7 +105,7 @@ namespace CodeAnalyzerWeb.Services
             return complexity + walker.Complexity;
         }
 
-        public void Dispose() { /* Cleanup if needed */ }
+        public void Dispose() {}
     }
 
     internal class ComplexityWalker : CSharpSyntaxWalker

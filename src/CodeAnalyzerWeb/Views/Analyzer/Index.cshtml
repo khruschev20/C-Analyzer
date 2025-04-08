@@ -1,24 +1,119 @@
-
 @model CodeAnalysisRequest
 
 @{
     ViewData["Title"] = "C# Code Analyzer";
 }
 
-<div class="container mt-4">
-    <h1 class="mb-4 Analyzer">C# Code Analyzer</h1>
-    <p class="Analyzer">Welcome to C# Code Analyzer, your go-to tool for analyzing and troubleshooting C# code with ease. Simply provide your code, and our system will check if it runs correctly, identify any errors, and explain what's causing them. Additionally, you'll get insights into your code structure, including the number of lines, classes, and methods. Whether you're debugging or optimizing your code, C# Code Analyzer helps you write better, error-free C# programs efficiently.</p>
-    <form asp-action="Analyze" method="post">
+<!-- Add to your layout file -->
+<link href="https://cdn.jsdelivr.net/npm/@@monaco-editor/loader@0.45.0/dev/vs/editor/editor.main.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<div class="container-lg py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+            <!-- Header Section -->
+            <div class="text-center mb-5 animate__animated animate__fadeInDown">
+                <h1 class="display-4 fw-bold gradient-text mb-3">C# Code Analyzer</h1>
+                <p class="lead text-muted">
+                    <i class="fas fa-rocket me-2"></i>Transform your C# code quality with AI-powered analysis
+                </p>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="row g-4 mb-5 animate__animated animate__fadeIn">
+                <div class="col-md-4">
+                    <div class="feature-card p-3 text-center">
+                        <i class="fas fa-bug fa-3x text-danger mb-3"></i>
+                        <h5>Error Detection</h5>
+                        <p class="text-muted small">Instant identification of runtime errors</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card p-3 text-center">
+                        <i class="fas fa-shield-alt fa-3x text-primary mb-3"></i>
+                        <h5>Security Scan</h5>
+                        <p class="text-muted small">Vulnerability assessment</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card p-3 text-center">
+                        <i class="fas fa-chart-line fa-3x text-success mb-3"></i>
+                        <h5>Performance Insights</h5>
+                        <p class="text-muted small">Optimization recommendations</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Code Editor Section -->
+            <form asp-action="Analyze" method="post">
         <div class="form-group">
-            <label asp-for="Code" class="control-label"></label>
-            <textarea asp-for="Code" class="form-control code-input" rows="15"></textarea>
+            <textarea asp-for="Code" class="form-control code-input" rows="15" style="height: 100px;"></textarea>
             <span asp-validation-for="Code" class="text-danger"></span>
         </div>
         
-        <div class="form-group mt-3">
-            <button type="submit" class="btn btn-secondary btn-rounded btn-aln">
-                <i class="bi bi-gear"></i> Analyze Code
-            </button>
-        </div>
+        <div class="d-flex gap-3 justify-content-center btn-analyze">
+                    <button type="submit" class="btn btn-primary btn-lg px-5 py-3 shadow hover-scale">
+                        <i class="fas fa-magic me-2"></i>Analyze Code
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-5 py-3 hover-scale" id="sampleCode">
+                        <i class="fas fa-vial me-2"></i>Try Example
+                    </button>
+                </div>
     </form>
+        </div>
+    </div>
 </div>
+
+<style>
+    .gradient-text {
+        background: linear-gradient(45deg, #6c5ce7, #0984e3);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .btn-analyze{
+        margin-top: 10px;
+    }
+
+    .editor-container {
+        border: 2px solid #dee2e6;
+        transition: all 0.3s ease;
+    }
+
+    .hover-scale {
+        transition: transform 0.2s ease;
+    }
+
+    .hover-scale:hover {
+        transform: translateY(-2px);
+    }
+
+    .loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .feature-card {
+        border: 1px solid rgba(0,0,0,0.1);
+        border-radius: 1rem;
+        transition: all 0.3s ease;
+    }
+
+    .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    [data-bs-theme="dark"] .editor-container {
+        border-color: #495057;
+    }
+</style>
+
