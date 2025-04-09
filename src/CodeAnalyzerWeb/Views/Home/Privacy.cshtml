@@ -1,6 +1,114 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Contact";
 }
+
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<p>If you have any questions, suggestions, or inquiries, feel free to contact us using the form below.</p>
+
+<form id="contactForm" method="post" asp-action="Contact">
+    <div class="form-group">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Message">Message:</label>
+        <textarea id="Message" name="Message" rows="5" required></textarea>
+    </div>
+
+    <div>
+        <button type="submit">Send Message</button>
+    </div>
+</form>
+
+<style>
+    form {
+        max-width: 500px;
+        margin: 30px auto;
+        padding: 20px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    .error {
+        color: red;
+        font-size: 0.9em;
+        margin-top: 5px;
+    }
+</style>
+
+<!-- jQuery for Basic Validation -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function () {
+        $('#contactForm').on('submit', function (e) {
+            let isValid = true;
+            $('.error').remove();
+
+            // Name validation
+            if ($('#Name').val().trim() === '') {
+                isValid = false;
+                $('#Name').after('<div class="error">Please enter your name.</div>');
+            }
+
+            // Email validation
+            const email = $('#Email').val().trim();
+            if (email === '') {
+                isValid = false;
+                $('#Email').after('<div class="error">Please enter your email.</div>');
+            } else if (!/\S+@@\S+\.\S+/.test(email)) {
+                isValid = false;
+                $('#Email').after('<div class="error">Please enter a valid email.</div>');
+            }
+
+            // Message validation
+            if ($('#Message').val().trim() === '') {
+                isValid = false;
+                $('#Message').after('<div class="error">Please enter your message.</div>');
+            }
+
+            if (!isValid) {
+                e.preventDefault(); // Stop form from submitting
+            }
+        });
+    });
+</script>

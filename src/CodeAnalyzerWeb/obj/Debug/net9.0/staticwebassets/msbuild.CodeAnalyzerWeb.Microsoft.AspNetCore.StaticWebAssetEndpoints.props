@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wag57ch819"},{"Name":"integrity","Value":"sha256-OPfB\u002BfW/fCWml\u002Blc4vKDv8Wm0cPXkDsTYYnumr4wmYE="},{"Name":"label","Value":"_content/CodeAnalyzerWeb/CodeAnalyzerWeb.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1133"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022OPfB\u002BfW/fCWml\u002Blc4vKDv8Wm0cPXkDsTYYnumr4wmYE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 12:43:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/CodeAnalyzerWeb/css/site.4uz6opza2d.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4uz6opza2d"},{"Name":"integrity","Value":"sha256-7Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c="},{"Name":"label","Value":"_content/CodeAnalyzerWeb/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1976"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 11:19:44 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CodeAnalyzerWeb/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1976"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227Mb5iIumjLULDrYYv2q4X8E0UMPsu3Mr9ftyfE7qf0c=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 11:19:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-drx5CxoLs6I2KBnxWjYU2l1Rh0zzjdFfgcvns\u002B\u002BcCXY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1870"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022drx5CxoLs6I2KBnxWjYU2l1Rh0zzjdFfgcvns\u002B\u002BcCXY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 10:15:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CodeAnalyzerWeb/css/site.ipqx3pxr1m.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ipqx3pxr1m"},{"Name":"integrity","Value":"sha256-drx5CxoLs6I2KBnxWjYU2l1Rh0zzjdFfgcvns\u002B\u002BcCXY="},{"Name":"label","Value":"_content/CodeAnalyzerWeb/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1870"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022drx5CxoLs6I2KBnxWjYU2l1Rh0zzjdFfgcvns\u002B\u002BcCXY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 10:15:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CodeAnalyzerWeb/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
